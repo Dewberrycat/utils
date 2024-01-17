@@ -6,6 +6,10 @@ function uniqueFilter(arr) {
     return arr.filter((e, i, arr) => i === arr.indexOf(e));
 }
 
-function f() {
-
+function uniqueFor(arr) {
+    let temp = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (!temp.includes(arr[i])) temp.push(arr[i]);
+    }
+    return temp;
 }
