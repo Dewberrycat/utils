@@ -5,3 +5,7 @@ function isobject(arr) {
 function uniqueFilter(arr) {
     return arr.filter((e, i, arr) => i === arr.indexOf(e));
 }
+
+function f() {
+
+}
